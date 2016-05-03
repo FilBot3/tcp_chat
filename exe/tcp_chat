@@ -2,6 +2,8 @@
 #
 #
 
+# Require the TCP Chat's Command Line library
 require "tcp_chat/cli"
 
+# Pass the Command Line Argument Library all the command line arguments passed. 
 TcpChat::CLI.start( ARGV )
